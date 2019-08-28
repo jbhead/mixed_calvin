@@ -1,5 +1,10 @@
-
-<%= image_tag "#{rand(100)}.png" %>
-<%= image_tag "#{rand(100)}.png" %>
-<%= image_tag "#{rand(100)}.png" %>
-<%= image_tag "#{rand(100)}.png" %>
+<h2 class="col-10 offset-1">C + H: Remixed</h2>
+<div class="booyah-box col-10 offset-1">
+  <%= image_tag "#{rand(100)}.png", :class => "first_image" %>
+  <%= image_tag "#{rand(100)}.png" %>
+  <%= image_tag "#{rand(100)}.png" %>
+  <%= image_tag "#{rand(100)}.png" %>
+</div>
+<div class="float-right col-2 offset-2">
+  <%= link_to 'Transmogrify!', root_path, class: 'btn btn-primary' %>
+</div>

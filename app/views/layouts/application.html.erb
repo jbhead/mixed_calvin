@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MixedCalvin</title>
+    <title>Calvin and Hobbes: Remixed</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,32 @@
   </head>
 
   <body>
+
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">
+        <%= image_tag "c_and_h_logo.jpg", :class => "logo"%>
+        Calvin and Hobbes: REMIXED
+      
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <%= link_to about_path, :class => "nav-link" do %>
+              About
+            <% end %>
+          </li>
+        </ul>
+    </nav>
+
+    <br />
+    <br />
+
+
+
+
+
     <%= yield %>
+
+    
   </body>
 </html>
