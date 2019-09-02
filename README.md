@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my Calvin and Hobbes Remix app. It currently only has 100 panels but there are plans to add more.
 
-Things you may want to cover:
+# FUTURE FEATURES
+- Add more images
+- Make a save or share feature
+- Add logic so as not to get the same image twice in the same load. 
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
